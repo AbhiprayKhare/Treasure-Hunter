@@ -16,3 +16,26 @@ Now using sprite counter it checks how many times the function update was called
 
 Then draw method is used to draw the player and objects using Graphics2d class.Buffered image value is according to the direction variable and spriteNum variable
 
+
+Package 2 -> Main Package:
+
+Contains 6 Classes 
+
+1) AssetSetter Class:Sets the value of assets like door,key,etc
+2) Collision Checker: Checks for Collision
+3) GamePanel: Main controller of all the working of classes
+4) KeyHandler:Used to handle the input statements given
+5) Sound: Used to assign sound to different objects
+6) UI:Used to display different message for the things happening in the game like gaining a key, entering a door, winning etc
+
+Package 3-> Objects:
+
+Contains SuperObject which is the parent class of all the other class in this package other classes are used to assign image variable with object image
+
+Package 4-> tile:
+
+Contains class tile which is the Superclass of TileManager and contains attributes of it.
+
+TileManager is used to manage everything related to tile like loading the map , getting image of tiles of water, earth,sand and wall and then drawing the tile.
+
+    
