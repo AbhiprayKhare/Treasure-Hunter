@@ -14,4 +14,5 @@ Package 1: This package contains 2 Classes
 
 Now using sprite counter it checks how many times the function update was called and then accordingly changes the swaps the value SpriteNum from 1 to 2 and 2 to 1 this will help give player character walking movement effect
 
-Then draw method is used to draw the player and objects using Graphics2d class.
+Then draw method is used to draw the player and objects using Graphics2d class.Buffered image value is according to the direction variable and spriteNum variable
+
